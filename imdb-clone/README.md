@@ -1,12 +1,55 @@
-# React + Vite
+# Movie4U
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie4U is a web application that allows users to create their own watchlist of movies. The app allows users to filter movies by genre, search for specific titles, and sort movies by IMDb rating. It provides a smooth, interactive UI where users can view movie details, including poster images and genre information.
 
-Currently, two official plugins are available:
+## 🚀 Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Visit Movie4U](https://satorugojo-nandhini.netlify.app/)  
 
-## Expanding the ESLint configuration
+## Features
+- **Watchlist**: Add and remove movies from your personal watchlist.
+- **Search**: Search for movies by title.
+- **Filter by Genre**: Filter movies by genre.
+- **Sort by Rating**: Sort movies in ascending or descending order by IMDb rating.
+- **Responsive Design**: Optimized for all screen sizes, from mobile to desktop.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- **React.js**: Frontend JavaScript library for building the user interface.
+- **Tailwind CSS**: Utility-first CSS framework for styling the app.
+- **OMDb API**: External API to fetch movie details (posters, ratings, etc.).
+- **Git**: Version control for managing the source code.
+
+## Installation
+
+1. Clone the repository:
+      > git clone https://github.com/Nandhini14-rdm/Movie4U.git
+
+2. Navigate to the project directory:
+      > cd imdb-clone
+
+3. Install the required dependencies:
+      > npm install
+      
+4. Start the development server:
+      > npm start
+The app will run at http://localhost:3000.
+
+## Usage
+
+* To start using the app, add movies to your watchlist by searching for titles and clicking on the "Add to Watchlist" button.
+* You can filter the movies by their genre and search for specific titles.
+* Sort the movies by their IMDb rating in ascending or descending order.
+* To remove a movie from the watchlist, click on the "Delete" button.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-name).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature-name).
+5. Create a new Pull Request.
+
+## Author 
+
+[Nandhini](https://github.com/Nandhini14-rdm)
+
